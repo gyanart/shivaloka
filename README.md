@@ -26,3 +26,6 @@ Verify all business claims with the owner, especially:
 - operating hours
 
 Also replace the demo image crops with original business photos supplied/approved by the owner.
+
+
+Map behavior: the service-area map is intentionally static (no pan, zoom, or scroll interaction). Use the “Open in Google Maps” link to open the business listing in Google Maps; on supported mobile devices, the Maps app may handle the link.

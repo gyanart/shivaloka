@@ -1,4 +1,4 @@
-(function(){const phone='91948352001';document.querySelectorAll('[data-wa]').forEach(function(el){el.href='https://wa.me/'+phone+'?text='+encodeURIComponent(el.getAttribute('data-wa'));el.target='_blank';el.rel='noopener';});})();
+(function(){const phone='919483852001';document.querySelectorAll('[data-wa]').forEach(function(el){el.href='https://wa.me/'+phone+'?text='+encodeURIComponent(el.getAttribute('data-wa'));el.target='_blank';el.rel='noopener';});})();
 
 
 // Service-area map
@@ -9,8 +9,13 @@
   const map = L.map(el, {
     center: serviceCentre,
     zoom: 15,
+    dragging: false,
+    touchZoom: false,
+    doubleClickZoom: false,
     scrollWheelZoom: false,
-    zoomControl: true,
+    boxZoom: false,
+    keyboard: false,
+    zoomControl: false,
     attributionControl: true
   });
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
